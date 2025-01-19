@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sleek E-Commerce Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">NIKE</div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#men">Men</a></li>
+        <li><a href="#women">Women</a></li>
+        <li><a href="#kids">Kids</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#for-you">For You</a></li>
+      </ul>
+    </nav>
+    <div class="cart-toggle">
+      <span>Cart (<span id="cart-count">0</span>)</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Nike Hyperdunk</h1>
+        <p>
+            This Nike basketball shoe was created for players who want to master the aerial game,
+            delivering a trampoline-like bounce for pure propulsion.
+        </p>
+        <button class="cta add-to-cart" data-name="Nike Hyperdunk" data-price="199.99">Add to Cart - $199.99</button>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1598934474994-df48f1b5f59b?w=500&auto=format&fit=crop&q=60" alt="Nike Hyperdunk">
+    </div>
+  </section>
+
+  <!-- Men Section -->
+  <section id="men" class="category-section">
+    <h2>Men</h2>
+    <p>Discover the latest styles for men, crafted for performance and style.</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c9cab5ae-6d77-49d9-ae99-7eac4f699449/NK+HAYWARD+BKPK.png" alt="Men Product 1">
+        <h3>Nike Hayward</h3>
+        <p>$28.99</p>
+        <button class="add-to-cart" data-name="Nike Hayward" data-price="28.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/53ef3236-e640-4b50-a8c2-e2d989f02b21/U+NK+DF+CLUB+CAP+S+CB+MTFUT+L.png" alt="Men Product 2">
+        <h3>Nike Club Cap</h3>
+        <p>$10.99</p>
+        <button class="add-to-cart" data-name="Nike Club Cap" data-price="10.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a9610a76-5f84-43c8-ab3c-513257252738/U+NK+SPARK+LTWT+ANKLE+200.png" alt="Collection Product 2">
+        <h3>Nike spark lightweight</h3>
+        <p>$4.99</p>
+        <button class="add-to-cart" data-name="Nike spark lightweight" data-price="4.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5fa03acb-9ef1-4d17-8681-99b3a0ca0d37/AS+M+NRG+ACG+DF+TEE+OC+DOG+SLE.png" alt="Collection Product 2">
+        <h3>Nike ACG</h3>
+        <p>$15.99</p>
+        <button class="add-to-cart" data-name="Nike ACG" data-price="15.99">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Women Section -->
+  <section id="women" class="category-section">
+    <h2>Women</h2>
+    <p>Explore the latest collection for women, combining elegance and performance.</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5e977d1e-9dc0-4619-9a01-3694d1775453/NK+HERITAGE+EUGENE+WNTRZD+BKPK.png" alt="Women Product 1">
+        <h3>Eugene Backpack</h3>
+        <p>$31.99</p>
+        <button class="add-to-cart" data-name="Eugene Backpack" data-price="31.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f0821cf9-c07a-4e48-a494-e522984df4f5/U+NK+ED+LTWT+ANKLE+3P+132.png" alt="Women Product 2">
+        <h3>Everday Ankle Socks</h3>
+        <p>$3.99</p>
+        <button class="add-to-cart" data-name="Everday Ankle Socks" data-price="3.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6ef0d982-3840-4a5c-8e5c-a8f84dc04307/U+NK+DF+FLY+CAP+U+CB+P.png" alt="Collection Product 2">
+        <h3>Nike Dri-Fit Fly</h3>
+        <p>$12.32</p>
+        <button class="add-to-cart" data-name="Nike Dri-Fit Fly" data-price="12.32">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bc38f180-9be1-4cf7-9416-ea6e60589494/AS+W+NK+DF+UNIVERSA+HR+TGHT.png" alt="Collection Product 2">
+        <h3>Nike Universa set</h3>
+        <p>$69.49</p>
+        <button class="add-to-cart" data-name="Nike Universa set" data-price="69.49">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kids Section -->
+  <section id="kids" class="category-section">
+    <h2>Kids</h2>
+    <p>Fun, comfortable, and stylish shoes for kids of all ages.</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/341d7aca-1918-451e-83ea-a7da2eed2448/K+NSW+TEE+EMB+FUTURA+LBR.png" alt="Kids Product 1">
+        <h3>Nike sportswear</h3>
+        <p>$12.99</p>
+        <button class="add-to-cart" data-name="Nike sportswear" data-price="12.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/74498290-3bc9-4cbd-beb7-c6eb5497dcb8/Y+NK+BRSLA+JDI+MINI+BKPK.png" alt="Kids Product 2">
+        <h3>Nike Brasilia JDI</h3>
+        <p>$13.59</p>
+        <button class="add-to-cart" data-name="Nike Brasilia JDI" data-price="13.59">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c588a4d1-8bdc-4384-92ea-cb971164fbc4/AIR+ZOOM+PEGASUS+41+%28GS%29.png" alt="Collection Product 2">
+        <h3>Nike Pegasus 41</h3>
+        <p>$28.73</p>
+        <button class="add-to-cart" data-name="Nike Pegasus 41" data-price="28.73">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/235c51d6-7247-458d-9e58-e28b8d92db64/K+NK+DF+COURT+SHORT+5IN.png" alt="Collection Product 2">
+        <h3>Nike Court Shorts</h3>
+        <p>$9.99</p>
+        <button class="add-to-cart" data-name="Nike Court Shorts" data-price="9.99">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections Section -->
+  <section id="collections" class="category-section">
+    <h2>Collections</h2>
+    <p>Hand-picked collections for every occasion and need.</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/41eadf7c-3ea7-4da7-b45c-961877eef5ef/AS+M+NP+DF+TIGHT+TOP+SS.png" alt="Collection Product 1">
+        <h3>Men's Dri-Fit short sleeve</h3>
+        <p>$15.32</p>
+        <button class="add-to-cart" data-name="Men's Dri-Fit short sleeve" data-price="15.32">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c42ea8d9-60a7-46f1-a6b5-7a4aecad51b1/AS+W+NSW+CLLCTN+TWILL+TROUSER.png" alt="Collection Product 2">
+        <h3> Women's Mid rise Twill Trousers</h3>
+        <p>$30.99</p>
+        <button class="add-to-cart" data-name="Women's Mid rise Twill Trousers" data-price="30.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4918355a-9493-4f10-be4e-77a5c4b012a4/M+J+AIR+JDN+CHINO+PANT.png" alt="Collection Product 2">
+        <h3>Air Jordan Men's Low Rise</h3>
+        <p>$36.99</p>
+        <button class="add-to-cart" data-name="Air Jordan Men's Low Rise" data-price="36.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3e6c8a03-ac46-485d-aeb9-46bedf9dcec7/AS+W+NSW+STREET+OOS+PO+HDY.png" alt="Collection Product 2">
+        <h3>Oversized French Terry Sweatshirt women</h3>
+        <p>$34.39</p>
+        <button class="add-to-cart" data-name="Oversized French Terry" data-price="34.39">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- For You Section -->
+  <section id="for-you" class="category-section">
+    <h2 color="White">For You</h2>
+    <p>Personalized recommendations just for you.</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c3068364-00d3-47a2-9f32-9a70ada9a0dc/AIR+MAX+90+G.png" alt="For You Product 1">
+        <h3>Nike Air Max 90 men</h3>
+        <p>$69.99</p>
+        <button class="add-to-cart" data-name="Nike Air Max 90 men" data-price="69.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec6f164d-3c98-463b-90fa-4a1a224c3196/AIR+MAX+90+EASYON+%28TD%29.png"alt="For You Product 1">
+        <h3>Nike Air Easy On</h3>
+        <p>$29.99</p>
+        <button class="add-to-cart" data-name="Nike Air Easy On" data-price="29.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/451c4c57-d723-4f17-8822-3ef0b005d30d/AIR+MAX+90+%28GS%29.png" alt="For You Product 1">
+        <h3>Nike Air 90 Kids </h3>
+        <p>$40.99</p>
+        <button class="add-to-cart" data-name="Nike Air 90 Kids" data-price="40.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a8f40ba2-142a-451e-8691-e3d5d56c80db/WMNS+AIR+MAX+90.png" alt="For You Product 1">
+        <h3>Nike Air 90 women </h3>
+        <p>$65.99</p>
+        <button class="add-to-cart" data-name="Nike Air 90 women" data-price="65.99">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <!-- Cart Section -->
+<div class="cart-overlay">
+  <div class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: $0.00</p>
+    <p id="cart-tax">GST (18%): $0.00</p>
+    <p id="cart-grand-total">Grand Total: $0.00</p>
+    <button id="close-cart">Close</button>
+  </div>
+</div>
+
+
+</body>
+</html>
